@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "roshan",
+      "email": "hhjkkjnj,",
+      "userName": "hjkhjkhjk",
+      "password": "hjgkhgkjg",
+      "mobile": "6878768768"
+    },
+    {
+      "id": 4,
+      "name": "hrfdhjkk",
+      "email": "hhhjk",
+      "userName": "hjkhkhkj",
+      "password": "hjkhkjh",
+      "mobile": "78238749208"
+    },
+    {
+      "id": 5,
+      "name": "ajaykumar",
+      "email": "majaykumar481@gmail.com",
+      "username": "dineshv",
+      "password": "amma@360",
+      "mobile": "9398200965"
+    },
+    {
+      "id": 6,
+      "name": "thtjj",
+      "email": "majaykumar@481",
+      "username": "dinesh",
+      "password": "dinesh",
+      "mobile": "9398200965"
+    },
+    {
+      "id": 7,
+      "name": "kljhl",
+      "email": "majaykumar@gmail.com",
+      "username": "dinesh",
+      "password": "welcome",
+      "mobile": "9398200965"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": 3,
+      "hospitalName": "ehdkhjk",
+      "address": "gkhghjgjkhjk",
+      "city": "bangalore",
+      "beds": 1,
+      "icuBeds": 7,
+      "contact": "983987289"
+    },
+    {
+      "id": 4,
+      "hospitalName": "krishna Hospital",
+      "address": "tirupathi near maingate",
+      "city": "vijayawada",
+      "beds": 56,
+      "icuBeds": 67,
+      "contact": "ajay - 9398200965"
+    },
+    {
+      "id": 5,
+      "hospitalName": "hgdfh",
+      "address": "fjfjfjjjghkhgkgjk",
+      "city": "jhgjhgj",
+      "beds": 4,
+      "icuBeds": 4,
+      "contact": "9398200965"
+    }
+  ]
+}

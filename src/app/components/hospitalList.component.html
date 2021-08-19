@@ -1,0 +1,46 @@
+<div class="form-control">
+  <span>
+    <input
+      type="text"
+      class="b-4"
+      placeholder="Seach Hospital by city"
+      [(ngModel)]="city"
+    />
+  </span>
+  <br />
+
+  <br />
+  <button type="button" class="btn btn-success" (click)="getHospitals()">
+    Search
+  </button>
+</div>
+<br />
+<br />
+<table class="table container">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Hospital</th>
+      <th scope="col">Address</th>
+      <th scope="col">city</th>
+      <th scope="col">Contact</th>
+      <th scope="col">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of hospitalData">
+      <td>{{ row.hospitalName }}</td>
+      <td>{{ row.address }}</td>
+      <td>{{ row.city }}</td>
+      <td>{{ row.contact }}</td>
+      <td>
+        <button
+          type="button"
+          class="btn btn-primary"
+          (click)="getHospitalDetails(row)"
+        >
+          Details
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
